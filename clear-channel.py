@@ -3,7 +3,7 @@ import asyncio
 from discord.ext import commands
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-TOKEN = 'MTE5Njg5NzI0OTIzODcxNjUwNw.GCDDuc.GLlKnudCUQLfe8QjCNqGDTWkPux1C6dT9FmJnk'
+TOKEN = 'bot_token_here'
 
 # Define intents
 intents = discord.Intents.all()
@@ -15,8 +15,8 @@ async def on_ready():
     print(f'We have logged in as {bot.user}')
 
     # Replace 'SERVER_ID' and 'CHANNEL_ID' with your server and channel IDs
-    server_id = '1186820354186948749'
-    channel_id = 1202223741145448448
+    server_id = 'server_id_here'
+    channel_id = channel_id_here
 
     # Fetch the server and channel
     server = bot.get_guild(int(server_id))
